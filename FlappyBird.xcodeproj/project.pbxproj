@@ -14,6 +14,7 @@
 		F620D90025DD1FE00097B701 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F620D8FF25DD1FE00097B701 /* Assets.xcassets */; };
 		F620D90325DD1FE00097B701 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F620D90125DD1FE00097B701 /* LaunchScreen.storyboard */; };
 		F620D91325DD3F700097B701 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F620D91225DD3F700097B701 /* GameScene.swift */; };
+		F67ADCDF260A29B100B8458F /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F67ADCDE260A29B100B8458F /* sound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		F620D90225DD1FE00097B701 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F620D90425DD1FE00097B701 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F620D91225DD3F700097B701 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		F67ADCDE260A29B100B8458F /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		F620D8F525DD1FDD0097B701 /* FlappyBird */ = {
 			isa = PBXGroup;
 			children = (
+				F67ADCDE260A29B100B8458F /* sound.mp3 */,
 				F620D8F625DD1FDD0097B701 /* AppDelegate.swift */,
 				F620D8F825DD1FDD0097B701 /* SceneDelegate.swift */,
 				F620D8FA25DD1FDD0097B701 /* ViewController.swift */,
@@ -127,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F67ADCDF260A29B100B8458F /* sound.mp3 in Resources */,
 				F620D90325DD1FE00097B701 /* LaunchScreen.storyboard in Resources */,
 				F620D90025DD1FE00097B701 /* Assets.xcassets in Resources */,
 				F620D8FE25DD1FDD0097B701 /* Main.storyboard in Resources */,
